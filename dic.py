@@ -21,3 +21,9 @@ print(len(first))
 #pop(means remove)
 first.pop("pgm")
 print(first)
+#popitem
+first.popitem()
+print(first)
+#can use del too
+del first["college"]
+print(first)
