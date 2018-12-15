@@ -16,3 +16,8 @@ for x in first:
 #printing the values
 for x in first.values():
     print(x)
+#printing the length
+print(len(first))
+#pop(means remove)
+first.pop("pgm")
+print(first)
